@@ -1,0 +1,91 @@
+/*section#1*/
+.blue-bg {
+	background-color: #363E97;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: aqua;
+}
+.left-video {
+	width: 570px;
+	height: 320px;
+	background-color: yellow;
+	margin-right: 30px;
+}
+.right-video {
+	width: 570px;
+	height: 320px;
+	background-color: red;
+}
+.video-wraper {
+	display: flex;
+}
+.left-video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box1 {
+	width: 150px;
+	height: 150px;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box2 {
+	width: 150px;
+	height: 150px;
+	background-color: green;
+}
+.box3 {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+}
+.box4 {
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+}
+.box-wraper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.images-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.image-box {
+	width:270px;
+}
+/*.size {
+	margin-right: 30px;
+}*/
+/*.image {
+	width: 100%;
+}*/
+.image-box .image{
+	width: 100%;
+}
+
+#active {
+	background-color: red;
+}
+.fb{
+	color: blue;
+	font-size: 30px;
+	transition: all 0.5s linear;
+}
+.fb:hover {
+	color: red;
+}
+.fa-youtube {
+	color: red;
+	font-size: 30px;
+}
+.fa-youtube:hover {
+	color: orange;
+}
